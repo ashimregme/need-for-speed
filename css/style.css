@@ -1,0 +1,76 @@
+.title{
+
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    height: 500px;
+    width: 302px;
+    top: 15px;
+}
+
+.container {
+    height: 2000px;
+    width: 100%;
+    background-image: url('../images/road.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+.lane {
+    float: left;
+    width: 33.33%;
+    height: 500px;
+    min-height: 500px;
+    display: inline-block;
+}
+
+.lane > .car {
+
+	display: block;
+	position: absolute;
+    bottom: 10px;
+	margin: 0 auto;
+	width: 40px;
+    height: 80px;
+    margin-left: 10%;
+}
+
+.box {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+
+.obstacle{
+
+	width: 100px;
+    position: absolute;
+}
+
+.bullets{
+
+    display: block;
+    position: absolute;
+    margin-left: 13%;
+    bottom: 90px;
+}
+
+.game-over{
+
+    position: absolute;
+    top: 40%;
+    background: red;
+    width: 80%;
+    padding: 10%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+}
